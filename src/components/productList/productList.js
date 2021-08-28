@@ -20,7 +20,7 @@ function ProductList() {
                     })
                 }
             </div>
-            Cart Items
+            <h2>Cart Items :</h2>
             <Cart CartContext={CartContext}  ></Cart>
         </CartContext.Provider >
     </div >
