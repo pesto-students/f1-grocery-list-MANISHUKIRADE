@@ -1,0 +1,48 @@
+.card {
+  background-color: #f9f9f9;
+  border: 0ch;
+  margin: 50px 50px 50px 50px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 200px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.card > img {
+  border-radius: 10%;
+  margin-top: 10px;
+  height: 110px;
+  width: 110px;
+}
+
+.card:hover {
+  box-shadow: 1px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.container > h5 {
+  text-overflow: ellipsis; /* IE, Safari (WebKit) */
+  overflow: hidden; /* don't show excess chars */
+  white-space: nowrap; /* force single line */
+}
+
+.card > button {
+  margin: 0rem 0.5rem 0.5rem;
+  size: 10px;
+  color: #41a8dd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+.card > button:hover {
+  margin: 0rem 0.5rem 0.5rem;
+  size: 10px;
+  color: #f9f9f9;
+  background-color: #41a8dd;
+}
