@@ -1,6 +1,5 @@
 import "./product.css";
 import { useContext, useState } from "react";
-import Modal from "../modal/modal";
 
 export default function Product(props) {
     const { product, CartContext } = props;
@@ -19,7 +18,9 @@ export default function Product(props) {
         }
         product.inCart = true;
         setCartItems([...cartItems, product]);
+        return
     }
+
     return <button className="card" style={{ color: product.inCart ? "red" : "black" }} >
         <img alt="image" src={`${product.filename}`} ></img>
         <div className="container">
