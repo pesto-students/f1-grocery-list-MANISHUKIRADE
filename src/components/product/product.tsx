@@ -1,5 +1,6 @@
 import './product.css';
-import {  React,useContext } from 'react';
+import {  useContext } from 'react';
+import React from 'react';
 
  type Product = {
     title: string,

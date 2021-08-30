@@ -1,4 +1,5 @@
-import { useContext,React } from 'react';
+import { useContext } from 'react';
+import React from 'react';
 
  type Product = {
     title: string,

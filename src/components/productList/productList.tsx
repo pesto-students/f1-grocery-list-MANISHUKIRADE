@@ -1,4 +1,5 @@
-import { React ,useEffect, useState, createContext } from 'react';
+import React from 'react';
+import { useEffect, useState, createContext } from 'react';
 import './productList.css';
 import products from '../../product.json';
 import Product from '../product/product';
