@@ -7,9 +7,11 @@
     "height": 600,
     "width": 400,
     "price": 28.1,
-    "rating": 4
+    "rating": 4,
+    "inCart": false
   },
   {
+    "inCart": false,
     "title": "Sweet fresh stawberry",
     "type": "fruit",
     "description": "Sweet fresh stawberry on the wooden table",
@@ -20,6 +22,7 @@
     "rating": 4
   },
   {
+    "inCart": false,
     "title": "Asparagus",
     "type": "vegetable",
     "description": "Asparagus with ham on the wooden table",
@@ -30,6 +33,7 @@
     "rating": 3
   },
   {
+    "inCart": false,
     "title": "Green smoothie",
     "type": "dairy",
     "description": "Glass of green smoothie with quail egg's yolk, served with cocktail tube, green apple and baby spinach leaves over tin surface.",
@@ -40,6 +44,7 @@
     "rating": 4
   },
   {
+    "inCart": false,
     "title": "Baking cake",
     "type": "dairy",
     "description": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
@@ -57,6 +62,7 @@
     "height": 450,
     "width": 299,
     "price": 18.19,
+    "inCart": false,
     "rating": 2
   },
   {
@@ -66,6 +72,7 @@
     "filename": "https://i.ibb.co/HKRc5fC/Sweet-fresh-stawberry-on-the-wooden-table-selective-focus.jpg",
     "height": 600,
     "width": 399,
+    "inCart": false,
     "price": 28.59,
     "rating": 4
   },
@@ -75,6 +82,7 @@
     "description": "Rosemary, lemon and salt on the table",
     "filename": "https://i.ibb.co/kJg76J1/Rosemary-lemon-and-salt-on-the-table-selective-focus.jpg",
     "height": 450,
+    "inCart": false,
     "width": 299,
     "price": 15.79,
     "rating": 5
@@ -88,6 +96,7 @@
     "height": 450,
     "width": 301,
     "price": 17.48,
+    "inCart": false,
     "rating": 3
   },
   {
@@ -98,6 +107,7 @@
     "height": 600,
     "width": 399,
     "price": 14.77,
+    "inCart": false,
     "rating": 0
   },
   {
@@ -108,6 +118,7 @@
     "height": 600,
     "width": 903,
     "price": 16.3,
+    "inCart": false,
     "rating": 2
   },
   {
@@ -117,6 +128,7 @@
     "filename": "https://i.ibb.co/2np4Xfb/Healthy-breakfast-set-Rice-cereal-or-porridge-with-berries-and-honey-over-rustic-wood-background.jpg",
     "height": 450,
     "width": 350,
+    "inCart": false,
     "price": 13.02,
     "rating": 2
   },
@@ -127,6 +139,7 @@
     "filename": "https://i.ibb.co/kgDC80p/Raw-Organic-Green-Beans-Ready-to-Eat.jpg",
     "height": 450,
     "width": 300,
+    "inCart": false,
     "price": 28.79,
     "rating": 1
   },
@@ -136,6 +149,7 @@
     "description": "Homemade baked stuffed portabello mushrooms with spinach and cheese",
     "filename": "https://i.ibb.co/52vs58D/Homemade-Baked-Stuffed-Portabello-Mushrooms-with-Spinach-and-Cheese.jpg",
     "height": 600,
+    "inCart": false,
     "width": 400,
     "price": 20.31,
     "rating": 1
@@ -147,6 +161,7 @@
     "filename": "https://i.ibb.co/6JtC7gs/Homemade-Organic-Strawberry-Jelly-in-a-Jar.jpg",
     "height": 400,
     "width": 600,
+    "inCart": false,
     "price": 14.18,
     "rating": 1
   },
@@ -158,6 +173,7 @@
     "height": 600,
     "width": 398,
     "price": 19.49,
+    "inCart": false,
     "rating": 4
   },
   {
@@ -168,6 +184,7 @@
     "height": 600,
     "width": 398,
     "price": 15.12,
+    "inCart": false,
     "rating": 5
   },
   {
@@ -178,6 +195,7 @@
     "height": 400,
     "width": 600,
     "price": 16.76,
+    "inCart": false,
     "rating": 5
   },
   {
@@ -188,6 +206,7 @@
     "height": 450,
     "width": 274,
     "price": 21.48,
+    "inCart": false,
     "rating": 4
   },
   {
@@ -197,6 +216,7 @@
     "filename": "https://i.ibb.co/mDwkn20/Concept-of-vegan-food-selective-focus.jpg",
     "height": 450,
     "width": 299,
+    "inCart": false,
     "price": 29.66,
     "rating": 4
   },
@@ -208,6 +228,7 @@
     "height": 450,
     "width": 299,
     "price": 22.7,
+    "inCart": false,
     "rating": 2
   },
   {
@@ -218,6 +239,7 @@
     "height": 450,
     "width": 299,
     "price": 17.01,
+    "inCart": false,
     "rating": 2
   },
   {
@@ -228,6 +250,7 @@
     "height": 600,
     "width": 398,
     "price": 14.05,
+    "inCart": false,
     "rating": 1
   },
   {
@@ -238,6 +261,7 @@
     "height": 600,
     "width": 400,
     "price": 28.86,
+    "inCart": false,
     "rating": 2
   },
   {
@@ -248,6 +272,7 @@
     "height": 450,
     "width": 299,
     "price": 26.21,
+    "inCart": false,
     "rating": 4
   },
   {
@@ -258,9 +283,11 @@
     "height": 600,
     "width": 398,
     "price": 27.81,
+    "inCart": false,
     "rating": 5
   },
   {
+    "inCart": false,
     "title": "Cuban sandwiche",
     "type": "bakery",
     "description": "Homemade traditional cuban sandwiches with ham pork and cheese",
@@ -278,11 +305,13 @@
     "height": 450,
     "width": 300,
     "price": 29.97,
+    "inCart": false,
     "rating": 3
   },
   {
     "title": "Smoothie with chia seeds",
     "type": "fruit",
+    "inCart": false,
     "description": "Glass of red strawberry smoothie with chia seeds, served with retro cocktail tube, fresh mint and strawberries over wooden table",
     "filename": "https://i.ibb.co/x8CZzH4/Glass-of-green-smoothie-with-quail-egg-s-yolk-served-with-cocktail-tube-green-apple-and-baby-spinach.jpg",
     "height": 600,
@@ -296,6 +325,7 @@
     "description": "Homemade yogurt with raspberry and mint",
     "filename": "https://i.ibb.co/23RtBz8/Glass-of-red-strawberry-smoothie-with-chia-seeds-served-with-retro-cocktail-tube-fresh-mint-and-stra.jpg",
     "height": 450,
+    "inCart": false,
     "width": 299,
     "price": 27.61,
     "rating": 4
@@ -308,6 +338,7 @@
     "height": 600,
     "width": 398,
     "price": 22.48,
+    "inCart": false,
     "rating": 5
   },
   {
@@ -316,6 +347,7 @@
     "description": "Cherry with sugar on old table",
     "filename": "https://i.ibb.co/mJ5fdVc/cherry-with-sugar-on-old-table.jpg",
     "height": 600,
+    "inCart": false,
     "width": 400,
     "price": 14.35,
     "rating": 5
@@ -326,6 +358,7 @@
     "description": "Raw fresh asparagus salad with cheese and dressing",
     "filename": "https://i.ibb.co/HHj7GR1/Raw-Fresh-Asparagus-Salad-with-Cheese-and-Dressing.jpg",
     "height": 600,
+    "inCart": false,
     "width": 400,
     "price": 22.97,
     "rating": 4
@@ -338,6 +371,7 @@
     "height": 450,
     "width": 300,
     "price": 13.55,
+    "inCart": false,
     "rating": 2
   },
   {
@@ -348,6 +382,7 @@
     "height": 600,
     "width": 398,
     "price": 28.96,
+    "inCart": false,
     "rating": 5
   },
   {
@@ -357,6 +392,7 @@
     "filename": "https://i.ibb.co/YRVGL2g/Healthy-breakfast-Berry-crumble-with-fresh-blueberries-raspberries-strawberries-almond-walnuts-pecan.jpg",
     "height": 450,
     "width": 321,
+    "inCart": false,
     "price": 21.01,
     "rating": 4
   },
@@ -368,6 +404,7 @@
     "height": 450,
     "width": 450,
     "price": 25.88,
+    "inCart": false,
     "rating": 0
   },
   {
@@ -378,6 +415,7 @@
     "height": 450,
     "width": 565,
     "price": 15.18,
+    "inCart": false,
     "rating": 1
   },
   {
@@ -387,6 +425,7 @@
     "filename": "https://i.ibb.co/DRBXZxV/Raw-legums-on-the-wooden-table-selective-focus.jpg",
     "height": 450,
     "width": 307,
+    "inCart": false,
     "price": 21.32,
     "rating": 0
   },
@@ -398,6 +437,7 @@
     "height": 600,
     "width": 900,
     "price": 27.14,
+    "inCart": false,
     "rating": 2
   },
   {
@@ -406,6 +446,7 @@
     "description": "Yellow and red sweet plums",
     "filename": "https://i.ibb.co/LvkzBRt/Yellow-and-red-sweet-plums-selective-focus.jpg",
     "height": 450,
+    "inCart": false,
     "width": 299,
     "price": 19.18,
     "rating": 1
@@ -416,6 +457,7 @@
     "description": "Homemade oven baked french fries with ketchup",
     "filename": "https://i.ibb.co/Ss4bfkg/Homemade-Oven-Baked-French-Fries-with-Ketchup.jpg",
     "height": 600,
+    "inCart": false,
     "width": 400,
     "price": 18.32,
     "rating": 3
@@ -426,6 +468,7 @@
     "description": "Healthy breakfast set. rice cereal or porridge with fresh strawberry, apricots, almond and honey over white rustic wood backdrop, top view, \u0000",
     "filename": "https://i.ibb.co/h8hfDpZ/Healthy-breakfast-set-Rice-cereal-or-porridge-with-fresh-strawberry-apricots-almond-and-honey-over-w.jpg",
     "height": 450,
+    "inCart": false,
     "width": 352,
     "price": 15.13,
     "rating": 3
@@ -438,6 +481,7 @@
     "height": 450,
     "width": 675,
     "price": 11.73,
+    "inCart": false,
     "rating": 5
   },
   {
@@ -447,6 +491,7 @@
     "filename": "https://i.ibb.co/VVtNBz9/Sharing-the-food-1.jpg",
     "height": 450,
     "width": 675,
+    "inCart": false,
     "price": 26.03,
     "rating": 4
   },
@@ -457,6 +502,7 @@
     "filename": "https://i.ibb.co/vDXKV09/Concept-of-vegan-food-selective-focus.jpg",
     "height": 450,
     "width": 678,
+    "inCart": false,
     "price": 15.19,
     "rating": 4
   },
@@ -467,6 +513,7 @@
     "filename": "https://i.ibb.co/zPJ24gf/Abstract-Citrus-fruits-bouquet-on-blue-background.jpg",
     "height": 600,
     "width": 401,
+    "inCart": false,
     "price": 18.18,
     "rating": 1
   },
@@ -478,6 +525,7 @@
     "height": 600,
     "width": 400,
     "price": 25.62,
+    "inCart": false,
     "rating": 3
   }
 ]
