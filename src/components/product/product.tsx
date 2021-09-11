@@ -1,18 +1,7 @@
 import './product.css';
 import {  useContext } from 'react';
 import React from 'react';
-
- type Product = {
-    title: string,
-    type: string,
-    description: string,
-    filename: string,
-    height: number,
-    width: number,
-    price: number,
-    rating: number,
-    inCart: boolean
-}
+import {Product} from '../../services/interface'
 
 type Props ={
     product: Product,

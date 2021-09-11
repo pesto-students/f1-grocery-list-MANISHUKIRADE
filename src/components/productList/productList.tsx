@@ -1,27 +1,24 @@
 import React from 'react';
 import { useEffect, useState, createContext } from 'react';
 import './productList.css';
-import ReactPaginate from 'react-paginate';
 import Product from '../product/product';
-import  fetchAllProducts  from '../../services/api'
-interface Product {
-    title: string,
-    type: string,
-    description: string,
-    filename: string,
-    height: number,
-    width: number,
-    price: number,
-    rating: number,
-    inCart : boolean
-}
-interface ProductList{
-  docs: Array<Product>
-  totalDocs: number
-}
+import { makeStyles } from '@material-ui/core/styles'
+import Pagination from '@material-ui/lab/Pagination'
+import {Product as ProductInterface} from '../../services/interface'
+import api from '../../serviceInjectors'
+
+const useStyles = makeStyles(theme => ({
+  marginAutoContainer: {
+    display: 'flex',
+  },
+  marginAutoItem: {
+    margin: 'auto'
+  }
+}))
+
 
  async function getProduct(currentPage:number,pageLimit:number,setProduct:any,setTotalObject:any){
-  const result  = await fetchAllProducts(currentPage,pageLimit)
+  const result  = await api.fetchAllProducts(currentPage,pageLimit)
   console.log(result)
   setProduct(result.docs)
   setTotalObject(result.totalDocs)
@@ -29,8 +26,8 @@ interface ProductList{
 }
 
 function ProductList(): any {
-  const [productList, setProductList] = useState <Product[]>([]);
-  const [cartItems, setCartItems] = useState <Product[]>([]);
+  const [productList, setProductList] = useState <ProductInterface[]>([]);
+  const [cartItems, setCartItems] = useState <ProductInterface[]>([]);
   const initialState = {
     cartItems,
     setCartItems,
@@ -39,7 +36,11 @@ function ProductList(): any {
   const [currentPage,setCurrentPage] = useState <number>(1);
   const [totalObject,setTotalObject] = useState <number>(0)
   const CartContext = createContext(initialState);
-  
+  const classes = useStyles()
+ const clickHandler=(events: any,page: number): void=>{
+         setCurrentPage(page)
+         console.log(events)
+  }
   useEffect(() => {
     getProduct(currentPage,pageLimit,setProductList,setTotalObject)
   },[currentPage]);
@@ -52,11 +53,12 @@ function ProductList(): any {
         }
       </CartContext.Provider>
     </div>
-    <ReactPaginate pageCount={totalObject/pageLimit}  marginPagesDisplayed={2} pageRangeDisplayed={5}
-          onPageChange={(data): void =>{
-          getProduct(data.selected,pageLimit,setProductList,setTotalObject)
-          setCurrentPage(data.selected)          
-        }} ></ReactPaginate>
+    <div className={classes.marginAutoContainer} >
+     
+      <Pagination className={classes.marginAutoItem}  count={Math.ceil(totalObject/pageLimit)} color="primary"  onChange={clickHandler} ></Pagination>
+
+    </div>
+    
     </>
   );
 }
