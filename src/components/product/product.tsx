@@ -26,7 +26,7 @@ export default function ProductComponent(props: Props) {
   };
 
   return (
-    <button className="card" style={{ color: product.inCart ? 'red' : 'black' }}>
+    <div className="card" style={{ color: product.inCart ? 'red' : 'black' }}>
       <img alt="image" src={`${product.filename}`} />
       <div className="container">
         <h5>
@@ -48,6 +48,6 @@ export default function ProductComponent(props: Props) {
         {' '}
         <i className="fa fa-shopping-cart" />
       </button>
-    </button>
+    </div>
   );
 }

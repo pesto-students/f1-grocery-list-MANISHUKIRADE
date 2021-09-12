@@ -13,3 +13,8 @@ export interface ProductList{
   docs: Array<Product>
   totalDocs: number
 }
+export interface User{
+  picture: BinaryType,
+  name: string,
+  email: string 
+}
